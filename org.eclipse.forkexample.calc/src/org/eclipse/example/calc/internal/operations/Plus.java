@@ -14,7 +14,7 @@ import org.eclipse.example.calc.BinaryOperation;
  * Binary plus operation
  */
 public class Plus extends AbstractOperation implements BinaryOperation {
-
+	// And one more comment ... 
 	@Override
 	public float perform(float arg1, float arg2) {
 		return arg1 + arg2;
