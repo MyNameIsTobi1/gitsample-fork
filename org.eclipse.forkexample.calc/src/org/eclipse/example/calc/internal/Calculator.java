@@ -25,7 +25,7 @@ public class Calculator {
 	private String cmd;
 
 	private boolean clearText;
-
+// Wo ist die Doku?
 	private float value;
 
 	public static String NAME = "Simple Calculator";
@@ -36,6 +36,7 @@ public class Calculator {
 	}
 
 	private void setupDefaultOperations() {
+		//more operations to come
 		new Equals();
 		new Minus();
 		new Plus();
